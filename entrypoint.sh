@@ -1,5 +1,7 @@
 #!/bin/sh -l
 
+env
+
 curl \
   $INPUT_ENDPOINT \
   -F api_key=$INPUT_API_KEY \
